@@ -1,0 +1,40 @@
+info: ::1 - - [11/Nov/2022:11:09:04 +0000] "GET /api/v1/ HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35"
+
+info: ::1 - - [11/Nov/2022:11:09:05 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35"
+
+info: ::1 - - [11/Nov/2022:11:10:16 +0000] "GET /api/v1/ HTTP/1.1" 200 27 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:21:42 +0000] "GET /api/v1/ HTTP/1.1" 200 27 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:21:51 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:25:33 +0000] "POST /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:25:41 +0000] "POST /api/v1/users HTTP/1.1" 201 196 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:27:13 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:27:20 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:27:39 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:28:02 +0000] "POST /api/v1/users HTTP/1.1" 201 192 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:28:51 +0000] "GET /api/v1/636e31c2699b5e5190ad046b HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:29:47 +0000] "GET /api/v1/ HTTP/1.1" 200 27 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:30:01 +0000] "GET /api/v1/Him%20anshu HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:30:13 +0000] "GET /api/v1/Himanshu HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:30:25 +0000] "GET /api/v1/users HTTP/1.1" 200 54258 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:31:28 +0000] "GET /api/v1/users/ HTTP/1.1" 200 54258 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:32:06 +0000] "GET /api/v1/users/ HTTP/1.1" 200 54258 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:41:26 +0000] "GET /api/v1/users HTTP/1.1" 200 54258 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:51:37 +0000] "POST /api/v1/users HTTP/1.1" 201 192 "-" "PostmanRuntime/7.29.2"
+

@@ -1,0 +1,46 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T11:06:05.298Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T11:06:08.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T11:07:19.888Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T11:07:23.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T11:08:05.603Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T11:08:08.651Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token { in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\fundoo-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\project\fundoo-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\project\fundoo-project\node_modules\raw-body\index.js:231:16)
+    at done (D:\project\fundoo-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project\fundoo-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T11:26:48.487Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T11:27:12.994Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T11:27:20.356Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T11:27:39.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T14:21:41.840Z"}

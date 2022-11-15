@@ -1,0 +1,516 @@
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token { in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\fundoo-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\project\fundoo-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\project\fundoo-project\node_modules\raw-body\index.js:231:16)
+    at done (D:\project\fundoo-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project\fundoo-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T11:26:48.487Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T11:27:12.994Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T11:27:20.356Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T11:27:39.345Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (D:\\project\\fundoo-project\\src\\config\\/database.js:12:20)\n    at tryCatch (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (D:\\project\\fundoo-project\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (D:\\project\\fundoo-project\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\project\\fundoo-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\project\\fundoo-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\project\\fundoo-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2022-11-13T19:48:41.769Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T19:54:43.876Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T19:57:42.639Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T20:00:52.328Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooDB.users index: email_1 dup key: { email: "adf@.com" } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-13T20:03:32.585Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\project\fundoo-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\project\fundoo-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\fundoo-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\project\fundoo-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:326:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\project\fundoo-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T20:03:32.622Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooDB.users index: email_1 dup key: { email: "adf@.com" } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-13T20:04:53.132Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\project\fundoo-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\project\fundoo-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\fundoo-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\project\fundoo-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:326:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\project\fundoo-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T20:04:53.182Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T20:05:37.463Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\project\fundoo-project\src\services\/user.service.js:12:9)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUserRegistration (D:\project\fundoo-project\src\services\/user.service.js:10:33)
+    at _callee3$ (D:\project\fundoo-project\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T20:40:39.252Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\project\fundoo-project\src\services\/user.service.js:12:9)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUserRegistration (D:\project\fundoo-project\src\services\/user.service.js:10:33)
+    at _callee3$ (D:\project\fundoo-project\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T02:21:48.360Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\project\fundoo-project\src\services\/user.service.js:12:9)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUserRegistration (D:\project\fundoo-project\src\services\/user.service.js:10:33)
+    at _callee3$ (D:\project\fundoo-project\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T02:21:58.325Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\project\fundoo-project\src\services\/user.service.js:12:9)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUserRegistration (D:\project\fundoo-project\src\services\/user.service.js:10:33)
+    at _callee3$ (D:\project\fundoo-project\src\controllers\/user.controller.js:50:36)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUserRegistration (D:\project\fundoo-project\src\controllers\/user.controller.js:48:33)
+    at Layer.handle [as handle_request] (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\fundoo-project\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\project\fundoo-project\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\fundoo-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project\fundoo-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project\fundoo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project\fundoo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:328:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project\fundoo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project\fundoo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:328:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project\fundoo-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:328:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at D:\project\fundoo-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\project\fundoo-project\node_modules\raw-body\index.js:231:16)
+    at done (D:\project\fundoo-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\project\fundoo-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T02:27:15.309Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooDB.users index: email_1 dup key: { email: "vivek@.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-14T03:54:54.343Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\project\fundoo-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\project\fundoo-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\fundoo-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\project\fundoo-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:326:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\project\fundoo-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T03:54:54.372Z"}
+error: Could not connect to the database. querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ETIMEOUT","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2022-11-14T15:00:57.396Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2022-11-14T15:17:45.792Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (D:\\project\\fundoo-project\\src\\config\\/database.js:12:20)\n    at tryCatch (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (D:\\project\\fundoo-project\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (D:\\project\\fundoo-project\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\project\\fundoo-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\project\\fundoo-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\project\\fundoo-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2022-11-14T15:27:17.305Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\project\fundoo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\project\fundoo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee3$ (D:\project\fundoo-project\src\services\/user.service.js:23:33)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T15:32:55.014Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T16:34:35.656Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooDB.users index: email_1 dup key: { email: "vivek@.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-14T16:34:59.916Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\project\fundoo-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\project\fundoo-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\fundoo-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\project\fundoo-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:326:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\project\fundoo-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T16:35:00.008Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooDB.users index: email_1 dup key: { email: "himanshu@.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-14T16:39:51.140Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\project\fundoo-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\project\fundoo-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\fundoo-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\project\fundoo-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:326:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\project\fundoo-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T16:39:51.199Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (D:\\project\\fundoo-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (D:\\project\\fundoo-project\\src\\config\\/database.js:12:20)\n    at tryCatch (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\project\\fundoo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (D:\\project\\fundoo-project\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (D:\\project\\fundoo-project\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\project\\fundoo-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\project\\fundoo-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\project\\fundoo-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2022-11-14T17:07:41.624Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\project\fundoo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\project\fundoo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee3$ (D:\project\fundoo-project\src\services\/user.service.js:25:31)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T17:11:06.714Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooDB.users index: email_1 dup key: { email: "krishna@.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-14T17:14:58.951Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\project\fundoo-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\project\fundoo-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\fundoo-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\project\fundoo-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:326:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\project\fundoo-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T17:14:58.981Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\project\fundoo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\project\fundoo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee3$ (D:\project\fundoo-project\src\services\/user.service.js:25:31)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T17:17:15.192Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\project\fundoo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\project\fundoo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee3$ (D:\project\fundoo-project\src\services\/user.service.js:25:31)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T17:27:40.398Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\project\fundoo-project\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\project\fundoo-project\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\project\fundoo-project\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee3$ (D:\project\fundoo-project\src\services\/user.service.js:25:31)
+    at tryCatch (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\fundoo-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T17:27:46.825Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooDB.users index: email_1 dup key: { email: "roshan@.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-14T17:57:38.413Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\project\fundoo-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\project\fundoo-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\fundoo-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\project\fundoo-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\project\fundoo-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\project\fundoo-project\node_modules\express\lib\router\index.js:326:13)
+    at D:\project\fundoo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\fundoo-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\project\fundoo-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\project\fundoo-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T17:57:38.478Z"}
